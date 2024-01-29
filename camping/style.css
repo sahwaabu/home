@@ -1,0 +1,676 @@
+.banner {
+    width: 1380px;
+    height: 30px;
+    padding: 25px 0px 0px 60px;
+    background-color: #128b57;
+  }
+  .announcement-banner {
+    width: 273px;
+    height: 15px;
+    font-family: "Inter";
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: contents;
+    font-size: 13px;
+  }
+  .learn-more {
+    text-decoration: underline;
+  }
+  .Charge-Accounts {
+    width: 139px;
+    height: 15px;
+    margin: 0 20px 0 650px;
+    font-family: "Inter";
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: right;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .Careers {
+    width: 64px;
+    height: 15px;
+    margin: 0 20px;
+    font-family: "Inter";
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: right;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.Donations {
+    width: 82px;
+    height: 15px;
+    margin: 0 0 0 20px;
+    font-family: "Inter";
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: right;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .navdesktopno-cart {
+    width: 1440px;
+    height: 42px;
+    margin: 0 0 170px;
+    padding: 28px 0px 0;
+    text-align: center;
+    border-bottom: #fff solid 1px;
+  }
+  .content {
+    background-image: url(images/forest.jpg) ;
+    background-size: contain;
+    width: 1440px;
+    height: 800px;
+    /* padding: 0 0 166px; */
+  }
+  
+  .CAMPING-Loading {
+    width: 147px;
+    height: 19px;
+    margin: 0 23px 0 0;
+    font-family: "Heebo", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .EXPLORE {
+    width: 63px;
+    height: 19px;
+    margin: 0 63px 22px 28px;
+    font-family: "Heebo", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    text-align: center;
+    color: #fff;
+  }
+  .TICKETS {
+    width: 60px;
+    height: 19px;
+    margin: 0 18px 0 0;
+    font-family: "Heebo", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    text-align: center;
+    color: #fff;
+  }
+  .DESTINATIONS {
+    width: 104px;
+    height: 19px;
+    margin: 0 21px 22px 36px;
+    font-family: "Heebo", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    text-align: center;
+    color: #fff;
+  }
+  .search {
+    width: 15px;
+    height: 15px;
+    /* margin: 0 4px 4px 0; */
+    
+  }
+  .Lorem-Epsum{
+    width: 423px;
+    height: 20px;
+    margin: 0 368px 20px 5px;
+    font-family: "Inter";
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 250px 30px;
+    font-size: 19px;
+  }
+  .main-heading{
+    width: 796px;
+    height: 326px;
+    margin: 9px 0 36px;
+    font-family: "MrAlex-Bold";
+    font-size: 90px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 100px;
+    letter-spacing: normal;
+    color: white;
+    text-transform: uppercase;
+    text-align: justify;
+  }
+  .heading {
+    width: 900px;
+    height: 300px;
+    margin-bottom: 30px;
+  padding: 0 250px 0px;
+  object-fit: contain;
+}
+.button1 {
+    width: 250px;
+    height: 50px;
+    border-radius: 22.5px;
+    border-color: #fff;
+    font-family: "Heebo";
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+    margin-left: 250px;
+    
+  }
+  .container {
+    background-image: url(images/background-img.jpg);
+    width: 1440px;
+    height: 3434px;
+    margin: 0 0 700px;
+    padding: 79px 0 17px;
+    
+  }
+  .heading-inspiration {
+    width: 301px;
+    height: 19px;
+    margin: 79px 450px 450px 570px;
+    font-family: "Heebo", sans-serif;
+    /* font-size: 13px; */
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    color: #063514;
+    text-transform: uppercase;
+    display: inline;
+  }
+  .heading-camping {
+    width: 1000px;
+    height: 100px;
+    margin: 0 400px 110px 500px;
+    font-family: "Heebo";
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #063514;
+    text-transform: uppercase;
+
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    gap: 110px;
+    padding: 10px;
+    width: 58px;
+    height: 98px;
+    margin: 30px 99px 39px 0;
+    object-fit: contain;
+  }
+  .button2 {
+    width: 250px;
+    height: 50px;
+    border-radius: 22.5px;
+    border-color: #fff;
+    font-family: "Heebo";
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    text-align: center;
+    background-color: #063514;
+    color: #fff;
+    margin-left: 250px;
+    margin: 29px 597px 0 597px;
+    
+  }
+  .section3 {
+    margin-top: 79px;
+  }
+  .background-img3 {
+    background-image: url(images/background3.jpg);
+    width: 1360px;
+    height: 735px;
+    margin: 0px 39px 0;
+    object-fit: contain;
+  }
+  .box {
+    width: 890px;
+    height: 469px;
+    margin: 0 264px 282px 206px;
+    background-color: rgba(18, 139, 87, 0.8);
+  }
+  .box1 {
+    width: 890px;
+    height: 46px;
+    margin: 0 264px 0px 245px;
+    background-color: rgba(18, 139, 87, 0.8);
+  }
+  .heading-discover {
+    width: 300px;
+    height: 19px;
+    margin: 0 295px 11px;
+    font-family: "Heebo";
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding-top: 30px;
+  }
+  .heading-explore {
+    width: 400px;
+    height: 150px;
+    margin: 18px 245px 21px;
+    font-family: "Heebo";
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    display: block;
+  }
+  .p {
+    width: 400px;
+    height: 66px;
+    margin: 21px 245px 51px;
+    font-family: "Heebo";
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    text-transform: none;
+    display: block;
+  }
+  .button3 {
+    width: 150px;
+    height: 50px;
+    /* border-radius: 22.5px; */
+    border-color: transparent;
+    border-bottom-color: #fff;
+    font-family: "Heebo";
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+    margin-left: 365px;
+    
+  }
+  .Rectangle {
+    width: 890px;
+    height: 10px;
+    margin: 59px 0 0;
+    background-color: #e4cb45;
+  }
+  .section4 {
+    margin-top: 80px;
+  }
+ 
+  .Mask {
+    width: 604px;
+    height: 383px;
+    background-color: #128b57;
+
+  }
+  img.background4 {
+    width: 800px;
+    height: 487px;
+    object-fit: contain;
+    float: right;
+    margin-right: 36px;
+    
+  }
+  .monument-tours-and {
+    width: 400px;
+    height: 19px;
+    margin: 0 124px 7px 107px;
+    font-family: "Heebo";
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 60px;
+  }
+  .Find-Tours-Tickets {
+    width: 500px;
+    height: 100px;
+    margin: 7px 65px 20px 66px;
+    font-family: "Heebo";
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+  }
+  .Were-here-to-help {
+    width: 500px;
+    height: 88px;
+    margin: 20px 65px 7px 66px;
+    font-family: Heebo;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    display: block;
+  }
+  .button4 {
+    width: 150px;
+    height: 50px;
+    /* border-radius: 22.5px; */
+    border-color: transparent;
+    border-bottom-color: #fff;
+    font-family: "Heebo";
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+    margin-left: 250px;
+    
+  }
+  .section5{
+    margin-top: 180px;
+    
+  }
+  .Rectangle1 {
+    width: 587px;
+    height: 200px;
+    margin: 75px 0px 0 50px;
+    padding: 40px 0px 0px 40px;
+    background-color: #fff;
+  }
+  .Access-tools-and-res {
+    width: 228px;
+    height: 19px;
+    margin: 0 250px 8px 2px;
+    font-family: "Heebo";
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    color: #063514;
+    text-transform: uppercase;
+    
+  }
+  .FIND-YOUR-NEXT {
+    width: 391px;
+    height: 50px;
+    margin: 8px 100px 10px 0;
+    font-family: "Heebo";
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #063514;
+    
+    
+  }
+  .Were-here-to-help-y {
+    width: 430px;
+    height: 101px;
+    margin: 10px 0 0 1px;
+    font-family: "Heebo";
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    color: #063514;
+    display: block;
+    
+  }
+  .Rectangle2 {
+    width: 587px;
+    height: 200px;
+    margin: 75px 43px 0 0px;
+   padding: 40px 0px 0px 40px;
+    background-color: #fff;
+    float: right;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 80px;
+    padding: 10px;
+    padding-bottom: 0px;
+  }
+  .splide {
+    height: 400px;
+  }
+  .img_box {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 182px;
+    height: 40px;
+    margin: 0 0 22px;
+    font-family: "Heebo";
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: uppercase;
+  }
+  .button5 {
+    width: 100px;
+    height: 50px;
+    /* border-radius: 22.5px; */
+    border-color: transparent;
+    border-bottom-color: #fff;
+    font-family: "Heebo";
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+    
+    
+  }
+  .footer {
+    width: 1440px;
+    height: 717px;
+    margin: 20px 0 0;
+    padding: 81px 0px 70px 0px;
+    background-color: #063514;
+  }
+  .grid-footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding:0px 445px 10px 445px;
+  }
+  h5 {
+    width: 150px;
+    height: 38px;
+    margin: 0 50px 0 0;
+    font-family: "Heebo";
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    color: #fff;
+    
+  }
+  .ul-shop {
+    width: 150px;
+    height: 138px;
+    margin: 0px 50px 0 0;
+    opacity: 0.5;
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: normal;
+    color: #fff;
+    display: block;
+  }
+  .SIGN-UP-AND-GET-20 {
+    width: 500px;
+    height: 40px;
+    margin: 80px 483px 14px 457px;
+    font-family: "Heebo";
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #fff;
+    align-content: center;
+    display: block;
+  }
+  #email {
+    width: 379px;
+    height: 45px;
+    margin: 2px 13px 0 456px;
+    padding: 12px 244px 11px 19px;
+    border: solid 1px #fff;
+    background-color: #fff;
+    font-size: 18px;
+    color: #063514;
+    font-family: "Heebo";
+  }
+  .button6 {
+      width: 136px;
+      height: 45px;
+      margin: 0 0 2px 0px;
+      padding: 14px 40px 12px 41px;
+      border-radius: 22.5px;
+      background-color: #128b57;
+      color: #fff;
+      font-size: 13px;
+      font-weight: bold;
+      letter-spacing: 1.08px;
+    }
+    .line {
+      width: 500px;
+      height: 1px;
+      margin: 80px 427px 46px 437px;
+      border: solid 1px #fff;
+    }
+    .All-Materials-2021 {
+      width: 161px;
+      height: 12px;
+      margin: 80px 601px 0 602px;
+      opacity: 0.5;
+      font-family: Inter;
+      font-size: 10px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #fff;
+    }
+  
+  
+  
