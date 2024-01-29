@@ -1,0 +1,832 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Web Development Courses</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="topnav">
+            <a class="active" href="/individuals/">For Individuals</a> 
+        
+            <a href="/businesses/">For Businesses</a> 
+            <a href="/universities/">For Universities</a> 
+            <a href="/governments/">For Governments</a>
+        </div>
+        <ul class="nav">
+            <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG91jGanQ0RF_j771q6DM-OAJK5bW0AIlQQw&usqp=CAU" alt="Coursera" width="127" height="32" style ="margin-top:10px"></li>
+            <li><div class="dropdown">
+                <button class="dropbtn">Explore <span class style="color:white"="arrow"> &#x2304;</span>
+                    
+                </button>
+                <div class="dropdown-content">
+                       
+               
+                
+                  <ul>Goals</ul>
+                  <a href="#">Take a free course</a>
+                  <a href="#">Earn a degree</a>
+                  <a href="#">Earn a certificate</a>
+                  <a href="#">Find your new career</a>
+                  <ul>Subjects</ul>
+                  <a href="#">Data Science</a>
+                  <a href="#">Business</a>
+                  <a href="#">Computer Science</a>
+                  <a href="#">Information Technology</a>
+                  <a href="#">Language Learning</a>
+                  <a href="#">Health</a>
+                  <a href="#">Personal Development</a>
+                  <a href="#">Physical Science and Engineering</a>
+                  <a href="#">Social Sciences</a>
+                  <a href="#">Arts and Humanities</a>
+                  <a href="#">Math and Logic</a>
+                  <button class="button">Browse all subjects</button>
+                </div>
+              </div></li>
+            <li>  <div class="search-container">
+                <form action="/action_page.php">
+                  <input type ="text" placeholder="Web development" name="search">
+                  <img src=" https://th.bing.com/th/id/OIP.FuBtLOT7i1Lfkt1OKj_L6AHaHa?rs=1&pid=ImgDetMain" style="height: 30px;border-radius: 5px;margin-top:5px ;">
+                </form>
+              </div></li>
+            <div class="nav-right">
+                <div class="dropdown">
+                    <button class="dropdown-btn">Online Degrees 
+                        <i class ="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#https://www.coursera.org/degrees"><b>Online Degree</b><br>Explore Bachelor's & Master's degrees</a>
+                        <a href="#https://www.coursera.org/mastertrack"><b>MasterTrack</b><br>Earn credit towards a Master's degree</a>
+                        <a href="#https://www.coursera.org/certificates/learn"><b>University Certificates</b><br>Advance your career with graduate-level learning</a>
+                    </div>
+  
+                </div> 
+                <a href style="color: black"="#Find your New Career">Find your New Career</a>
+                <a href="#Log In">Log In</a>
+                <button type="button" onclick="alert('Join for Free')">Join for Free</button>
+            </div>   
+        </ul><hr>
+    
+    </header>
+    <div class="body">
+        <div class="container">
+            <!-- <div class="filters">
+                <h3>Filter by</h3>                
+                <p><strong>Level</strong></p>
+                <label class="box">Beginner
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                </label>
+                <label class="box">Intermediate
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                </label>
+                <label class="box">Advanced
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                </label>
+                <label class="box">Mixed
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                </label>          
+        
+                <p><strong>Duration</strong></p>
+                <label class="box">Less than 2 hours
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                </label>
+                <label class="box">1-4 Weeks
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                </label>
+                <label class="box">1-3 Months
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                </label>
+                <label class="box">3-6 Months
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                </label> 
+                <label class="box">6-12 Months
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                </label>     
+                <label class="box">1-4 Years
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                </label>                     
+            </div> -->
+
+            <div class="filterbox">
+                <div class="filter">
+                    <h3>Filter by</h3>
+                    
+                    
+                    <h4>Level</h4>
+                    <div class="level">
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="Beginner" onchange="change();"/>Beginner</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="Intermediate" onchange="change();"/>Intermediate</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="Advanced" onchange="change();"/>Advanced</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="Mixed" onchange="change();"/>Mixed</label>
+                        </div>
+                    </div>
+                    
+                    <h4>Duration</h4>
+                    <div class="duration">
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="Less than 2 hours" onchange="change();"/>Less than 2 hours</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="1-4 Weeks" onchange="change();"/>1-4 Weeks</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="1-3 Months" onchange="change();"/>1-3 Months</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="3-6 Months" onchange="change();"/>3-6 Months</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="6-12 Months" onchange="change();"/>6-12 Months</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="1-4 Years" onchange="change();"/>1-4 Years</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                <ul class="set">
+                    <li class="cards">
+                            <div class="card">
+                                <div class="cardimg">
+                                    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/ed/d25c0d25114924a34754928dbf8273/Front-end-dev-ProCert.png?auto=format%2Ccompress%2C%20enhance&amp;dpr=1&amp;w=265&amp;h=216&amp;fit=crop&amp;q=50" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/ed/d25c0d25114924a34754928dbf8273/Front-end-dev-ProCert.png?auto=format%2Ccompress%2C%20enhance&amp;dpr=2&amp;w=265&amp;h=216&amp;fit=crop&amp;q=50 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/ed/d25c0d25114924a34754928dbf8273/Front-end-dev-ProCert.png?auto=format%2Ccompress%2C%20enhance&amp;dpr=3&amp;w=265&amp;h=216&amp;fit=crop&amp;q=50 3x" style="width: 308px; height: 190px;border-radius: 9px" alt style="max-width: none; max-height: none;min-width: 100%; min-height: 100%; border-radius: 9px; width: 308px; height: 190px;" >
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-header">
+                                        <div class="card-info">
+                                            
+                                                <div class="card-partners" title="Meta">
+                                                    <div class="card-partnerLogo">
+                                                        <img src="http://coursera-university-assets.s3.amazonaws.com/73/e03b13a8e44df9b19eb279e5506396/360-x-360.png" style="height: 35px; width: 35px">
+                                                    </div>
+                                                    <p class="card-partnerName">Meta</p>
+                                                </div>
+                                
+                                        </div>
+                                        <div>
+                                            <a data-click-key="search.search.click.search_card" data-click-value="{&quot;filtersApplied&quot;:{},&quot;hitPosition&quot;:2,&quot;href&quot;:&quot;/professional-certificates/meta-front-end-developer&quot;,&quot;indexName&quot;:&quot;prod_all_launched_products_term_optimization&quot;,&quot;indexPosition&quot;:1,&quot;listIndex&quot;:1,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;search_card&quot;,&quot;page&quot;:&quot;search&quot;},&quot;noResults&quot;:false,&quot;objectID&quot;:&quot;s12n~KPSzVL9AEeyfhAreTccY9Q&quot;,&quot;query&quot;:&quot;web development&quot;,&quot;queryID&quot;:&quot;web development&quot;,&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="search_card" data-track-href="/professional-certificates/meta-front-end-developer" href="/professional-certificates/meta-front-end-developer" to="/professional-certificates/meta-front-end-developer" class="cds-119 cds-113 cds-115 cds-CommonCard-titleLink css-si869u cds-142" id="cds-react-aria-421-product-card-title" aria-label="Meta Front-End Developer professional certificate by Meta, by 4.7 stars, by 14.4k reviews, provide skills HTML and CSS, Javascript, Front-End Web Development etc... Beginner level 3 - 6 Months" target="_blank" rel="noopener noreferrer">
+                                                
+                                                <h4 class="card-title">Meta Front-End Developer</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-bodyContent">
+                                            <p class="typography-base">
+                                                <span>Skills you'll gain : </span>
+                                                HTML and CSS, Javascript, Front-End Web Development, React (web framework), Web Development, User Experience...<!-- Algorithms, Computer Science, Web Design, Application Development, Computer Programming, Software Engineering, Web Development Tools, Collaboration, Communication, Data Structures, Human Computer Interaction, Interactive Design, Linux, Problem Solving, Product Design, Software Engineering Tools, Software Testing -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="card-ratings">
+                                            <div class="reviews">
+                                                <svg aria-hidden="true" fill="none" focusable="false" height="16" viewBox="0 0 16 16" width="16"
+                                                class="path"><path d="M13.63 6.32h-4L8.3 2.22a.33.33 0 00-.547-.143.35.35 0 00-.083.123L6.32 6.32h-4a.34.34 0 00-.32.32.36.36 0 00.12.27L5.5 9.49l-1.3 4.08a.33.33 0 00.23.41.358.358 0 00.3-.05L8 11.39l3.28 2.54a.33.33 0 00.46 0 .3.3 0 00.06-.31l-1.31-4.13 3.37-2.58a.32.32 0 00.08-.45.34.34 0 00-.136-.112c-.055-.024-.063-.034-.123-.028h-.051z" fill="#F2D049"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M7.723 1.525a.83.83 0 011.054.546L9.993 5.82h3.668a.635.635 0 01.317.058l.02.01.012.005a.84.84 0 01.336.275l.001.002a.82.82 0 01-.191 1.143l-3.083 2.36 1.2 3.786a.8.8 0 01-.166.81l-.009.01-.01.01a.83.83 0 01-1.131.023L8 12.022l-2.975 2.312-.012.008a.86.86 0 01-1.007-.026.832.832 0 01-.286-.885l.003-.013 1.194-3.744L1.8 7.296l-.014-.013a.86.86 0 01-.287-.645V6.61a.84.84 0 01.791-.79l.015-.001h3.652L7.2 2.029l.006-.016a.85.85 0 01.51-.485l.007-.003zM4.298 14.462h-.002l.134-.482-.132.482zM7.98 2.857L6.682 6.82H2.826l3.257 2.486-1.244 3.907 3.16-2.456 3.14 2.431-1.232-3.882 3.248-2.486H9.267L7.98 2.857zm5.75 3.96z" fill="#7C6919"></path></svg>
+                                                <p class="review">4.7</p>
+                                                <p class="rating">(14.4k reviews)</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-metadata">
+                                            <p class="Typography-baseContent">Beginner·Professional Certificate·3-6 Months</p>
+                                        </div>
+                                    </div>
+                                </div>    
+                            <!-- </div> -->
+
+                            
+                            
+                        
+
+                    </li>
+                    <li class="cards">
+                
+                            <div class="card">
+                                <div class="cardimg">
+                                    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d2j5ihb19pt1hq.cloudfront.net/sdp_page/s12n_logos/webdesign.jpg?auto=format%2Ccompress%2C%20enhance&amp;dpr=1&amp;w=265&amp;h=216&amp;fit=crop&amp;q=50" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d2j5ihb19pt1hq.cloudfront.net/sdp_page/s12n_logos/webdesign.jpg?auto=format%2Ccompress%2C%20enhance&amp;dpr=2&amp;w=265&amp;h=216&amp;fit=crop&amp;q=50 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d2j5ihb19pt1hq.cloudfront.net/sdp_page/s12n_logos/webdesign.jpg?auto=format%2Ccompress%2C%20enhance&amp;dpr=3&amp;w=265&amp;h=216&amp;fit=crop&amp;q=50 3x" style="width: 308px; height: 190px; border-radius: 9px" alt style="max-width: none; max-height: none;min-width: 100%; min-height: 100%; border-radius: 9px; width: 308px; height: 190px" >
+                                </div>
+                                <div class="card-content" style="padding-top: 0px">
+                                    <div class="card-header" style="height: 90" >
+                                        <div class="card-info">
+                                            
+                                                <div class="card-partners" title="University of Michigan" >
+                                                    <div class="card-partnerLogo" style="height: 30px; width: 30px">
+                                                        <img src="https://coursera-university-assets.s3.amazonaws.com/70/de505d47be7d3a063b51b6f856a6e2/New-Block-M-Stacked-Blue-295C_600x600.png" style="height: 25px; width: 25px; padding-top: 2;padding-bottom: 2;padding-left: 2.2;padding-right: 1.6;" >
+                                                    </div>
+                                                    <p class ="card-partnerName">University of Michigan</p> 
+                                                </div>
+                                
+                                        </div>
+                                        <div>
+                                            <a data-click-key="search.search.click.search_card" data-click-value="{&quot;filtersApplied&quot;:{},&quot;hitPosition&quot;:0,&quot;href&quot;:&quot;/specializations/web-design&quot;,&quot;indexName&quot;:&quot;prod_all_launched_products_term_optimization&quot;,&quot;indexPosition&quot;:1,&quot;listIndex&quot;:1,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;search_card&quot;,&quot;page&quot;:&quot;search&quot;},&quot;noResults&quot;:false,&quot;objectID&quot;:&quot;s12n~bf56AUzfEeWRyA5YS9oHkQ&quot;,&quot;query&quot;:&quot;web development&quot;,&quot;queryID&quot;:&quot;web development&quot;,&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="search_card" data-track-href="/specializations/web-design" href="/specializations/web-design" to="/specializations/web-design" class="cds-119 cds-113 cds-115 cds-CommonCard-titleLink css-si869u cds-142" id="cds-react-aria-6-product-card-title" aria-label="Web Design for Everybody: Basics of Web Development &amp; Coding specialization by University of Michigan, by 4.7 stars, by 34.1k reviews, provide skills Front-End Web Development, HTML and CSS, Web Design etc... Beginner level 3 - 6 Months" target="_blank" rel="noopener noreferrer">
+                                            
+                                                
+                                                <h4 class="card-title">Web Design for Everybody: Basics of Web Development & Coding</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-bodyContent">
+                                            <p class="typography-base">
+                                                <span>Skills you'll gain : </span>
+                                            Front-End Web Development, HTML and CSS, Web Design, Web Development, Web Development Tools, Computer...  <!-- Programming, Semantic Web, User Experience Design, Full-Stack Web Development, Interactive Design, Programming Principles, Computer Programming Tools, Javascript, Other Web Frameworks, Visual Design, Computational Logic, Design and Product, Mobile Development Tools -->
+                                                
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="card-ratings">
+                                            <div class="reviews">
+                                                <svg aria-hidden="true" fill="none" focusable="false" height="16" viewBox="0 0 16 16" width="16"
+                                                class="path"><path d="M13.63 6.32h-4L8.3 2.22a.33.33 0 00-.547-.143.35.35 0 00-.083.123L6.32 6.32h-4a.34.34 0 00-.32.32.36.36 0 00.12.27L5.5 9.49l-1.3 4.08a.33.33 0 00.23.41.358.358 0 00.3-.05L8 11.39l3.28 2.54a.33.33 0 00.46 0 .3.3 0 00.06-.31l-1.31-4.13 3.37-2.58a.32.32 0 00.08-.45.34.34 0 00-.136-.112c-.055-.024-.063-.034-.123-.028h-.051z" fill="#F2D049"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M7.723 1.525a.83.83 0 011.054.546L9.993 5.82h3.668a.635.635 0 01.317.058l.02.01.012.005a.84.84 0 01.336.275l.001.002a.82.82 0 01-.191 1.143l-3.083 2.36 1.2 3.786a.8.8 0 01-.166.81l-.009.01-.01.01a.83.83 0 01-1.131.023L8 12.022l-2.975 2.312-.012.008a.86.86 0 01-1.007-.026.832.832 0 01-.286-.885l.003-.013 1.194-3.744L1.8 7.296l-.014-.013a.86.86 0 01-.287-.645V6.61a.84.84 0 01.791-.79l.015-.001h3.652L7.2 2.029l.006-.016a.85.85 0 01.51-.485l.007-.003zM4.298 14.462h-.002l.134-.482-.132.482zM7.98 2.857L6.682 6.82H2.826l3.257 2.486-1.244 3.907 3.16-2.456 3.14 2.431-1.232-3.882 3.248-2.486H9.267L7.98 2.857zm5.75 3.96z" fill="#7C6919"></path></svg>
+                                                <p class="review">4.7</p>
+                                                <p class="rating">(34.1k reviews)</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-metadata">
+                                            <p class="Typography-baseContent">Beginner·Specialization·3-6 Months</p>
+                                        </div>
+                                    </div>
+                                </div>    
+
+                    </li>
+                    <li class="cards">
+                        
+                            <div class="card">
+                                <div class="cardimg">
+                                    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/b1/8159cc90f848b0a702103ac6f1e226/Introduction-to-Web-Development-image.jpg?auto=format%2Ccompress%2C%20enhance&amp;dpr=1&amp;w=265&amp;h=216&amp;fit=crop&amp;q=50" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/b1/8159cc90f848b0a702103ac6f1e226/Introduction-to-Web-Development-image.jpg?auto=format%2Ccompress%2C%20enhance&amp;dpr=2&amp;w=265&amp;h=216&amp;fit=crop&amp;q=50 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/b1/8159cc90f848b0a702103ac6f1e226/Introduction-to-Web-Development-image.jpg?auto=format%2Ccompress%2C%20enhance&amp;dpr=3&amp;w=265&amp;h=216&amp;fit=crop&amp;q=50 3x" style="width: 308px; height: 190px;border-radius: 9px" alt style="max-width:none;max-height:none;min-width:100%;min-height:100%">
+                                    
+                                </div>
+                                <div class="card-content" style="padding-top: 0px">
+                                    <div class="card-header" style="height: 90" >
+                                        <div class="card-info">
+                                            
+                                                <div class="card-partners" title="IBM">
+                                                    <div class="card-partnerLogo">
+                                                        <img src="http://coursera-university-assets.s3.amazonaws.com/bb/f5ced2bdd4437aa79f00eb1bf7fbf0/IBM-Logo-Blk---Square.png"  style="height: 35px; width: 35px; padding-left: 2.5;">
+                                                        
+                                                    </div>
+                                                    <p class="card-partnerName">IBM</p>
+                                                </div>
+                                
+                                        </div>
+                                        <div>
+                                            <a data-click-key="search.search.click.search_card" data-click-value="{&quot;filtersApplied&quot;:{},&quot;hitPosition&quot;:1,&quot;href&quot;:&quot;/learn/introduction-to-web-development-with-html-css-javacript&quot;,&quot;indexName&quot;:&quot;prod_all_launched_products_term_optimization&quot;,&quot;indexPosition&quot;:1,&quot;listIndex&quot;:1,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;search_card&quot;,&quot;page&quot;:&quot;search&quot;},&quot;noResults&quot;:false,&quot;objectID&quot;:&quot;course~MGyZ3R4HEeuW4A7q8IQ0iQ&quot;,&quot;query&quot;:&quot;web development&quot;,&quot;queryID&quot;:&quot;web development&quot;,&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="search_card" data-track-href="/learn/introduction-to-web-development-with-html-css-javacript" href="/learn/introduction-to-web-development-with-html-css-javacript" to="/learn/introduction-to-web-development-with-html-css-javacript" class="cds-119 cds-113 cds-115 cds-CommonCard-titleLink css-si869u cds-142" id="cds-react-aria-8-product-card-title" aria-label="Introduction to Web Development with HTML, CSS, JavaScript course by IBM, by 4.6 stars, by 1.6k reviews, provide skills Web Development, Cloud Applications, Javascript etc... Beginner level 1 - 3 Months" target="_blank" rel="noopener noreferrer">                                     
+                                                <h4 class="card-title">Introduction to Web Development with HTML, CSS, JavaScript</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-bodyContent">
+                                            <p class="typography-base">
+                                                <span>Skills you'll gain : </span>
+                                                Web Development, Cloud Applications, Javascript
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="card-ratings">
+                                            <div class="reviews">
+                                                <svg aria-hidden="true" fill="none" focusable="false" height="16" viewBox="0 0 16 16" width="16"
+                                                class="path"><path d="M13.63 6.32h-4L8.3 2.22a.33.33 0 00-.547-.143.35.35 0 00-.083.123L6.32 6.32h-4a.34.34 0 00-.32.32.36.36 0 00.12.27L5.5 9.49l-1.3 4.08a.33.33 0 00.23.41.358.358 0 00.3-.05L8 11.39l3.28 2.54a.33.33 0 00.46 0 .3.3 0 00.06-.31l-1.31-4.13 3.37-2.58a.32.32 0 00.08-.45.34.34 0 00-.136-.112c-.055-.024-.063-.034-.123-.028h-.051z" fill="#F2D049"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M7.723 1.525a.83.83 0 011.054.546L9.993 5.82h3.668a.635.635 0 01.317.058l.02.01.012.005a.84.84 0 01.336.275l.001.002a.82.82 0 01-.191 1.143l-3.083 2.36 1.2 3.786a.8.8 0 01-.166.81l-.009.01-.01.01a.83.83 0 01-1.131.023L8 12.022l-2.975 2.312-.012.008a.86.86 0 01-1.007-.026.832.832 0 01-.286-.885l.003-.013 1.194-3.744L1.8 7.296l-.014-.013a.86.86 0 01-.287-.645V6.61a.84.84 0 01.791-.79l.015-.001h3.652L7.2 2.029l.006-.016a.85.85 0 01.51-.485l.007-.003zM4.298 14.462h-.002l.134-.482-.132.482zM7.98 2.857L6.682 6.82H2.826l3.257 2.486-1.244 3.907 3.16-2.456 3.14 2.431-1.232-3.882 3.248-2.486H9.267L7.98 2.857zm5.75 3.96z" fill="#7C6919"></path></svg>
+                                                <p class="review">4.6</p>
+                                                <p class="rating">(1.6k reviews)</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-metadata">
+                                            <p class="Typography-baseContent">Beginner·Course.1-3 Months</p>
+                                        </div>
+                                    </div>
+                                </div>    
+                        
+                    </li>
+                    <li class="cards">
+                        
+                            <div class="card">
+                                <div class="cardimg">
+                                    <img src=" https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/ff/4584404c7511e7a18adb2a6ad3c009/GettyImages-185239648.jpg?auto=format%2Ccompress%2C%20enhance&dpr=2&w=265&h=216&fit=crop&q=50" style="width: 308px; height: 190px;border-radius: 9px" alt style="max-width: none; max-height: none;min-width: 100%; min-height: 100%; border-radius: 9px; width: 308px; height: 190px;" >
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-header">
+                                        <div class="card-info">
+                                            
+                                                <div class="card-partners" title="University of California, Davis">
+                                                    <div class="card-partnerLogo">
+                                                        <img src="https://coursera-university-assets.s3.amazonaws.com/66/4d1f6067b511e599c247e28e57110c/Logo-B-for-Coursera.png" style="height: 30px; width: 30px; border-radius: 3px; padding-left: 4px; padding-top: 3px;">
+                                                    </div>
+                                                    <p class="card-partnerName">University of California, Davis</p>
+                                                </div>
+                                
+                                        </div>
+                                        <div>
+                                            <a data-click-key="search.search.click.search_card" data-click-value="{&quot;filtersApplied&quot;:{},&quot;hitPosition&quot;:2,&quot;href&quot;:&quot;/learn/web-development&quot;,&quot;indexName&quot;:&quot;prod_all_launched_products_term_optimization&quot;,&quot;indexPosition&quot;:1,&quot;listIndex&quot;:1,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;search_card&quot;,&quot;page&quot;:&quot;search&quot;},&quot;noResults&quot;:false,&quot;objectID&quot;:&quot;course~hVoJYnQ_EeWIfhKr_WcYsQ&quot;,&quot;query&quot;:&quot;web development&quot;,&quot;queryID&quot;:&quot;web development&quot;,&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="search_card" data-track-href="/learn/web-development" href="/learn/web-development" to="/learn/web-development" class="cds-119 cds-113 cds-115 cds-CommonCard-titleLink css-si869u cds-142" id="cds-react-aria-10-product-card-title" aria-label="Introduction to Web Development course by University of California, Davis, by 4.7 stars, by 3.6k reviews, provide skills Computer Programming, Front-End Web Development, HTML and CSS etc... Beginner level 1 - 3 Months" target="_blank" rel="noopener noreferrer">
+                                                <h4 class="card-title">Introduction to Web Development</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-bodyContent">
+                                            <p class="typography-base">
+                                                <span>Skills you'll gain : </span>
+                                                Computer Programming, Front-End Web Development, HTML and CSS, Javascript, Web Design, Web Development, We...<!-- b Development Tools, Problem Solving, User Experience Design, Java Programming -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="card-ratings">
+                                            <div class="reviews">
+                                                <svg aria-hidden="true" fill="none" focusable="false" height="16" viewBox="0 0 16 16" width="16"
+                                                class="path"><path d="M13.63 6.32h-4L8.3 2.22a.33.33 0 00-.547-.143.35.35 0 00-.083.123L6.32 6.32h-4a.34.34 0 00-.32.32.36.36 0 00.12.27L5.5 9.49l-1.3 4.08a.33.33 0 00.23.41.358.358 0 00.3-.05L8 11.39l3.28 2.54a.33.33 0 00.46 0 .3.3 0 00.06-.31l-1.31-4.13 3.37-2.58a.32.32 0 00.08-.45.34.34 0 00-.136-.112c-.055-.024-.063-.034-.123-.028h-.051z" fill="#F2D049"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M7.723 1.525a.83.83 0 011.054.546L9.993 5.82h3.668a.635.635 0 01.317.058l.02.01.012.005a.84.84 0 01.336.275l.001.002a.82.82 0 01-.191 1.143l-3.083 2.36 1.2 3.786a.8.8 0 01-.166.81l-.009.01-.01.01a.83.83 0 01-1.131.023L8 12.022l-2.975 2.312-.012.008a.86.86 0 01-1.007-.026.832.832 0 01-.286-.885l.003-.013 1.194-3.744L1.8 7.296l-.014-.013a.86.86 0 01-.287-.645V6.61a.84.84 0 01.791-.79l.015-.001h3.652L7.2 2.029l.006-.016a.85.85 0 01.51-.485l.007-.003zM4.298 14.462h-.002l.134-.482-.132.482zM7.98 2.857L6.682 6.82H2.826l3.257 2.486-1.244 3.907 3.16-2.456 3.14 2.431-1.232-3.882 3.248-2.486H9.267L7.98 2.857zm5.75 3.96z" fill="#7C6919"></path></svg>
+                                                <p class="review">4.7</p>
+                                                <p class="rating">(3.6k reviews)</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-metadata">
+                                            <p class="Typography-baseContent">Beginner·Course·1-3 Months</p>
+                                        </div>
+                                    </div>
+                                </div>    
+                        
+                    </li>
+                    <li class="cards">
+                    
+                            <div class="card">
+                                <div class="cardimg">
+                                    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/1f/ba1ed8cab3477b866b701c4d137249/Getting-started-with-Front-end-and-Web-Development.png?auto=format%2Ccompress%2C%20enhance&amp;dpr=1&amp;w=265&amp;h=216&amp;fit=crop&amp;q=50" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/1f/ba1ed8cab3477b866b701c4d137249/Getting-started-with-Front-end-and-Web-Development.png?auto=format%2Ccompress%2C%20enhance&amp;dpr=2&amp;w=265&amp;h=216&amp;fit=crop&amp;q=50 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/1f/ba1ed8cab3477b866b701c4d137249/Getting-started-with-Front-end-and-Web-Development.png?auto=format%2Ccompress%2C%20enhance&amp;dpr=3&amp;w=265&amp;h=216&amp;fit=crop&amp;q=50 3x" style="width: 308px; height: 190px;border-radius: 9px" alt style="max-width: none; max-height: none;min-width: 100%; min-height: 100%; border-radius: 9px; width: 308px; height: 190px;" >
+                                
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-header">
+                                        <div class="card-info">
+                                            
+                                                <div class="card-partners" title="IBM">
+                                                    <div class="card-partnerLogo">
+                                                        <img src="http://coursera-university-assets.s3.amazonaws.com/bb/f5ced2bdd4437aa79f00eb1bf7fbf0/IBM-Logo-Blk---Square.png"  style="height: 35px; width: 35px; padding-left: 3;">
+                                                    
+                                                    </div>
+                                                    <p class="card-partnerName">IBM</p>
+                                                </div>
+                                
+                                        </div>
+                                        <div>
+                                            <a data-click-key="search.search.click.search_card" data-click-value="{&quot;filtersApplied&quot;:{},&quot;hitPosition&quot;:3,&quot;href&quot;:&quot;/learn/getting-started-with-front-end-and-web-development&quot;,&quot;indexName&quot;:&quot;prod_all_launched_products_term_optimization&quot;,&quot;indexPosition&quot;:1,&quot;listIndex&quot;:1,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;search_card&quot;,&quot;page&quot;:&quot;search&quot;},&quot;noResults&quot;:false,&quot;objectID&quot;:&quot;course~21JGRiZSEe68bBLHU5PBpw&quot;,&quot;query&quot;:&quot;web development&quot;,&quot;queryID&quot;:&quot;web development&quot;,&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="search_card" data-track-href="/learn/getting-started-with-front-end-and-web-development" href="/learn/getting-started-with-front-end-and-web-development" to="/learn/getting-started-with-front-end-and-web-development" class="cds-119 cds-113 cds-115 cds-CommonCard-titleLink css-si869u cds-142" id="cds-react-aria-12-product-card-title" aria-label="Getting Started with Front-End and Web Development new course by IBM, by 5.0 stars, provide skills Front-End Web Development, Web Development etc... Beginner level" target="_blank" rel="noopener noreferrer">
+                                            
+                                                
+                                                <h4 class="card-title">Getting Started with Front-End and Web Development</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-bodyContent">
+                                            <p class="typography-base">
+                                                <span>Skills you'll gain : </span>
+                                                Front-End Web Development, Web Development
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer" style="padding-top: 35px" ;">
+                                    
+                                        <div class="card-metadata">
+                                            <p class="Typography-baseContent">Beginner·Course</p>
+                                        </div>
+                                    </div>
+                                </div>    
+                    
+                    </li>
+                    <li class="cards">
+                    
+                            <div class="card">
+                                <div class="cardimg">
+                                    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/a4/d69e204d3a11e7bd76e991b22caa52/HKUST_full-stack-banner.jpg?auto=format%2Ccompress%2C%20enhance&dpr=3&w=265&h=216&fit=crop&q=50" style="width: 308px; height: 190px;border-radius: 9px" alt style="max-width: none; max-height: none;min-width: 100%; min-height: 100%; border-radius: 9px; width: 308px; height: 190px;" >
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-header">
+                                        <div class="card-info">
+                                            
+                                                <div class="card-partners" title="The Hong Kong University of Science and Technology">
+                                                    <div class="card-partnerLogo" style="height:fit-content;width: fit-content;">
+                                                        <img src="https://coursera-university-assets.s3.amazonaws.com/3a/37974779f7ad2a04626183c2f8951b/ustLogo.png" style="height: 30px; width: 30px">
+                                                    </div>
+                                                    <p class="card-partnerName" style="padding-top: 0; width: 250px; font-size: 14;">The Hong Kong University of Science and Technology</p> 
+                                                </div>
+                                
+                                        </div>
+                                        <div>
+                                            <a data-click-key="search.search.click.search_card" data-click-value="{&quot;filtersApplied&quot;:{},&quot;hitPosition&quot;:4,&quot;href&quot;:&quot;/specializations/full-stack-mobile-app-development&quot;,&quot;indexName&quot;:&quot;prod_all_launched_products_term_optimization&quot;,&quot;indexPosition&quot;:1,&quot;listIndex&quot;:1,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;search_card&quot;,&quot;page&quot;:&quot;search&quot;},&quot;noResults&quot;:false,&quot;objectID&quot;:&quot;s12n~Tn_VM61TEeaH0xIrfa92QA&quot;,&quot;query&quot;:&quot;web development&quot;,&quot;queryID&quot;:&quot;web development&quot;,&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="search_card" data-track-href="/specializations/full-stack-mobile-app-development" href="/specializations/full-stack-mobile-app-development" to="/specializations/full-stack-mobile-app-development" class="cds-119 cds-113 cds-115 cds-CommonCard-titleLink css-si869u cds-142" id="cds-react-aria-215-product-card-title" aria-label="Full Stack Web Development with Angular specialization by The Hong Kong University of Science and Technology, by 4.7 stars, by 11.3k reviews, provide skills Angular, Computer Programming, Javascript etc... Intermediate level 3 - 6 Months" target="_blank" rel="noopener noreferrer">
+                                            
+                                                
+                                                <h4 class="card-title">Full Stack Web Development with Angular</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-bodyContent">
+                                            <p class="typography-base">
+                                                <span>Skills you'll gain : </span>
+                                                Angular, Computer Programming, Javascript, Mobile Development, Software As A Service, Web Development
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="card-ratings">
+                                            <div class="reviews">
+                                                <svg aria-hidden="true" fill="none" focusable="false" height="16" viewBox="0 0 16 16" width="16"
+                                                class="path"><path d="M13.63 6.32h-4L8.3 2.22a.33.33 0 00-.547-.143.35.35 0 00-.083.123L6.32 6.32h-4a.34.34 0 00-.32.32.36.36 0 00.12.27L5.5 9.49l-1.3 4.08a.33.33 0 00.23.41.358.358 0 00.3-.05L8 11.39l3.28 2.54a.33.33 0 00.46 0 .3.3 0 00.06-.31l-1.31-4.13 3.37-2.58a.32.32 0 00.08-.45.34.34 0 00-.136-.112c-.055-.024-.063-.034-.123-.028h-.051z" fill="#F2D049"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M7.723 1.525a.83.83 0 011.054.546L9.993 5.82h3.668a.635.635 0 01.317.058l.02.01.012.005a.84.84 0 01.336.275l.001.002a.82.82 0 01-.191 1.143l-3.083 2.36 1.2 3.786a.8.8 0 01-.166.81l-.009.01-.01.01a.83.83 0 01-1.131.023L8 12.022l-2.975 2.312-.012.008a.86.86 0 01-1.007-.026.832.832 0 01-.286-.885l.003-.013 1.194-3.744L1.8 7.296l-.014-.013a.86.86 0 01-.287-.645V6.61a.84.84 0 01.791-.79l.015-.001h3.652L7.2 2.029l.006-.016a.85.85 0 01.51-.485l.007-.003zM4.298 14.462h-.002l.134-.482-.132.482zM7.98 2.857L6.682 6.82H2.826l3.257 2.486-1.244 3.907 3.16-2.456 3.14 2.431-1.232-3.882 3.248-2.486H9.267L7.98 2.857zm5.75 3.96z" fill="#7C6919"></path></svg>
+                                                <p class="review">4.7</p>
+                                                <p class="rating">(11.3k reviews)</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-metadata">
+                                            <p class="Typography-baseContent">Intermediate·Specialization·3-6 Months</p>
+                                        </div>
+                                    </div>
+                                </div>    
+                    
+                    </li>
+                    <li class="cards">
+                    
+                            <div class="card">
+                                <div class="cardimg">
+                                    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/1b/f6e7a158114b258b7a04fee2d89eae/img-2ccb09ba-6825-4eca-8d38-578b2cf7951b-tDSxIkrw-20221114191224.png?auto=format%2Ccompress%2C%20enhance&amp;dpr=1&amp;w=265&amp;h=216&amp;fit=crop&amp;q=50" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/1b/f6e7a158114b258b7a04fee2d89eae/img-2ccb09ba-6825-4eca-8d38-578b2cf7951b-tDSxIkrw-20221114191224.png?auto=format%2Ccompress%2C%20enhance&amp;dpr=2&amp;w=265&amp;h=216&amp;fit=crop&amp;q=50 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/1b/f6e7a158114b258b7a04fee2d89eae/img-2ccb09ba-6825-4eca-8d38-578b2cf7951b-tDSxIkrw-20221114191224.png?auto=format%2Ccompress%2C%20enhance&amp;dpr=3&amp;w=265&amp;h=216&amp;fit=crop&amp;q=50 3x" style="width: 308px; height: 190px;border-radius: 9px" alt style="max-width: none; max-height: none;min-width: 100%; min-height: 100%; border-radius: 9px; width: 308px; height: 190px;">
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-header">
+                                        <div class="card-info">
+                                            
+                                                <div class="card-partners" title="Coursera Project Network">
+                                                    <div class="card-partnerLogo">
+                                                        <img src="http://coursera-university-assets.s3.amazonaws.com/89/a0db8f3ea3417ca90d4f3a4ca1d73e/coursera-projectnetwork-purplesquare.png" style="height: 30px; width: 30px; padding-left: 4; padding-top: 2.5; border-radius: 5px;">
+                                                    </div>
+                                                    <p class="card-partnerName">Coursera Project Network </p>
+                                                </div>
+                                
+                                        </div>
+                                        <div>
+                                            <a data-click-key="search.search.click.search_card" data-click-value="{&quot;filtersApplied&quot;:{},&quot;hitPosition&quot;:5,&quot;href&quot;:&quot;/projects/web-development-in-javascript-build-your-first-website&quot;,&quot;indexName&quot;:&quot;prod_all_launched_products_term_optimization&quot;,&quot;indexPosition&quot;:1,&quot;listIndex&quot;:1,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;search_card&quot;,&quot;page&quot;:&quot;search&quot;},&quot;noResults&quot;:false,&quot;objectID&quot;:&quot;course~JxpIGFuSEe244QqZ1Zw-dQ&quot;,&quot;query&quot;:&quot;web development&quot;,&quot;queryID&quot;:&quot;web development&quot;,&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="search_card" data-track-href="/projects/web-development-in-javascript-build-your-first-website" href="/projects/web-development-in-javascript-build-your-first-website" to="/projects/web-development-in-javascript-build-your-first-website" class="cds-119 cds-113 cds-115 cds-CommonCard-titleLink css-si869u cds-142" id="cds-react-aria-217-product-card-title" aria-label="Web Development in Javascript: Build Your First Website guided project by Coursera Project Network, by 4.3 stars, by 6 reviews, provide skills Front-End Web Development, Javascript, Web Development etc... Intermediate level Less Than 2 Hours" target="_blank" rel="noopener noreferrer">
+                                                
+                                                <h4 class="card-title">Web Development in Javascript: Build Your First Website</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-bodyContent">
+                                            <p class="typography-base">
+                                                <span>Skills you'll gain : </span>
+                                                Front-End Web Development, Javascript, Web Development
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="card-ratings">
+                                            <div class="reviews">
+                                                <svg aria-hidden="true" fill="none" focusable="false" height="16" viewBox="0 0 16 16" width="16"
+                                                class="path"><path d="M13.63 6.32h-4L8.3 2.22a.33.33 0 00-.547-.143.35.35 0 00-.083.123L6.32 6.32h-4a.34.34 0 00-.32.32.36.36 0 00.12.27L5.5 9.49l-1.3 4.08a.33.33 0 00.23.41.358.358 0 00.3-.05L8 11.39l3.28 2.54a.33.33 0 00.46 0 .3.3 0 00.06-.31l-1.31-4.13 3.37-2.58a.32.32 0 00.08-.45.34.34 0 00-.136-.112c-.055-.024-.063-.034-.123-.028h-.051z" fill="#F2D049"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M7.723 1.525a.83.83 0 011.054.546L9.993 5.82h3.668a.635.635 0 01.317.058l.02.01.012.005a.84.84 0 01.336.275l.001.002a.82.82 0 01-.191 1.143l-3.083 2.36 1.2 3.786a.8.8 0 01-.166.81l-.009.01-.01.01a.83.83 0 01-1.131.023L8 12.022l-2.975 2.312-.012.008a.86.86 0 01-1.007-.026.832.832 0 01-.286-.885l.003-.013 1.194-3.744L1.8 7.296l-.014-.013a.86.86 0 01-.287-.645V6.61a.84.84 0 01.791-.79l.015-.001h3.652L7.2 2.029l.006-.016a.85.85 0 01.51-.485l.007-.003zM4.298 14.462h-.002l.134-.482-.132.482zM7.98 2.857L6.682 6.82H2.826l3.257 2.486-1.244 3.907 3.16-2.456 3.14 2.431-1.232-3.882 3.248-2.486H9.267L7.98 2.857zm5.75 3.96z" fill="#7C6919"></path></svg>
+                                                <p class="review">4.3</p>
+                                                <p class="rating">(6 reviews)</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-metadata">
+                                            <p class="Typography-baseContent">Intermediate·Guided Project·Less than 2 Hours</p>
+                                        </div>
+                                    </div>
+                                </div>    
+                        
+                    </li>
+                    <li class="cards">
+                    
+                            <div class="card">
+                                <div class="cardimg">
+                                    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/07/525a284f334769b72c1e4683278a89/a11y-web-dev-icon.png?auto=format%2Ccompress%2C%20enhance&amp;dpr=1&amp;w=265&amp;h=216&amp;q=50&amp;fit=crop" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/07/525a284f334769b72c1e4683278a89/a11y-web-dev-icon.png?auto=format%2Ccompress%2C%20enhance&amp;dpr=2&amp;w=265&amp;h=216&amp;q=50&amp;fit=crop 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/07/525a284f334769b72c1e4683278a89/a11y-web-dev-icon.png?auto=format%2Ccompress%2C%20enhance&amp;dpr=3&amp;w=265&amp;h=216&amp;q=50&amp;fit=crop 3x"style="width: 308px; height: 190px;border-radius: 9px" alt style="max-width: none; max-height: none;min-width: 100%; min-height: 100%; border-radius: 9px; width: 308px; height: 190px;">
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-header">
+                                        <div class="card-info">
+                                            
+                                                <div class="card-partners" title="Coursera Project Network">
+                                                    <div class="card-partnerLogo">
+                                                        <img src="http://coursera-university-assets.s3.amazonaws.com/89/a0db8f3ea3417ca90d4f3a4ca1d73e/coursera-projectnetwork-purplesquare.png" style="height: 30px; width: 30px; padding-left: 4; padding-top: 2.5; border-radius: 5px;">
+                                                    </div>
+                                                    <p class="card-partnerName">Coursera Project Network</p>
+                                                </div>
+                                
+                                        </div>
+                                        <div>
+                                            <a data-click-key="search.search.click.search_card" data-click-value="{&quot;filtersApplied&quot;:{},&quot;hitPosition&quot;:6,&quot;href&quot;:&quot;/projects/introduction-to-accessible-web-development&quot;,&quot;indexName&quot;:&quot;prod_all_launched_products_term_optimization&quot;,&quot;indexPosition&quot;:1,&quot;listIndex&quot;:1,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;search_card&quot;,&quot;page&quot;:&quot;search&quot;},&quot;noResults&quot;:false,&quot;objectID&quot;:&quot;course~mH0_I7chEeqw3Q4kRMF0Iw&quot;,&quot;query&quot;:&quot;web development&quot;,&quot;queryID&quot;:&quot;web development&quot;,&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="search_card" data-track-href="/projects/introduction-to-accessible-web-development" href="/projects/introduction-to-accessible-web-development" to="/projects/introduction-to-accessible-web-development" class="cds-119 cds-113 cds-115 cds-CommonCard-titleLink css-si869u cds-142" id="cds-react-aria-219-product-card-title" aria-label="Introduction to Accessible Web Development guided project by Coursera Project Network, by 4.8 stars, by 34 reviews, provide skills Web Development, Javascript etc... Intermediate level Less Than 2 Hours" target="_blank" rel="noopener noreferrer">
+                                                
+                                                <h4 class="card-title">Introduction to Accessible Web Development</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-bodyContent">
+                                            <p class="typography-base">
+                                                <span>Skills you'll gain : </span>
+                                                Web Development, Javascript
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="card-ratings">
+                                            <div class="reviews">
+                                                <svg aria-hidden="true" fill="none" focusable="false" height="16" viewBox="0 0 16 16" width="16"
+                                                class="path"><path d="M13.63 6.32h-4L8.3 2.22a.33.33 0 00-.547-.143.35.35 0 00-.083.123L6.32 6.32h-4a.34.34 0 00-.32.32.36.36 0 00.12.27L5.5 9.49l-1.3 4.08a.33.33 0 00.23.41.358.358 0 00.3-.05L8 11.39l3.28 2.54a.33.33 0 00.46 0 .3.3 0 00.06-.31l-1.31-4.13 3.37-2.58a.32.32 0 00.08-.45.34.34 0 00-.136-.112c-.055-.024-.063-.034-.123-.028h-.051z" fill="#F2D049"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M7.723 1.525a.83.83 0 011.054.546L9.993 5.82h3.668a.635.635 0 01.317.058l.02.01.012.005a.84.84 0 01.336.275l.001.002a.82.82 0 01-.191 1.143l-3.083 2.36 1.2 3.786a.8.8 0 01-.166.81l-.009.01-.01.01a.83.83 0 01-1.131.023L8 12.022l-2.975 2.312-.012.008a.86.86 0 01-1.007-.026.832.832 0 01-.286-.885l.003-.013 1.194-3.744L1.8 7.296l-.014-.013a.86.86 0 01-.287-.645V6.61a.84.84 0 01.791-.79l.015-.001h3.652L7.2 2.029l.006-.016a.85.85 0 01.51-.485l.007-.003zM4.298 14.462h-.002l.134-.482-.132.482zM7.98 2.857L6.682 6.82H2.826l3.257 2.486-1.244 3.907 3.16-2.456 3.14 2.431-1.232-3.882 3.248-2.486H9.267L7.98 2.857zm5.75 3.96z" fill="#7C6919"></path></svg>
+                                                <p class="review">4.8</p>
+                                                <p class="rating">(34 reviews)</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-metadata">
+                                            <p class="Typography-baseContent" style="margin-top:20px">Intermediate.Guided Project.Less than 2 Hours</p>
+
+                                        </div>
+                                    </div>
+                                </div>    
+                    
+                    </li>
+                    <li class="cards">
+                    
+                            <div class="card">
+                                <div class="cardimg">
+                                    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/10/70d76d530e44019a08a4099ba00790/Capture.png?auto=format%2Ccompress%2C%20enhance&amp;dpr=1&amp;w=265&amp;h=216&amp;q=50&amp;fit=crop" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/10/70d76d530e44019a08a4099ba00790/Capture.png?auto=format%2Ccompress%2C%20enhance&amp;dpr=2&amp;w=265&amp;h=216&amp;q=50&amp;fit=crop 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/10/70d76d530e44019a08a4099ba00790/Capture.png?auto=format%2Ccompress%2C%20enhance&amp;dpr=3&amp;w=265&amp;h=216&amp;q=50&amp;fit=crop 3x"  style="width: 308px; height: 190px;border-radius: 9px" alt style="max-width: none; max-height: none;min-width: 100%; min-height: 100%; border-radius: 9px; width: 308px; height: 190px;">
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-header">
+                                        <div class="card-info">
+                                            
+                                                <div class="card-partners" title="Coursera Project Network">
+                                                    <div class="card-partnerLogo">
+                                                        <img src="http://coursera-university-assets.s3.amazonaws.com/89/a0db8f3ea3417ca90d4f3a4ca1d73e/coursera-projectnetwork-purplesquare.png" style="height: 30px; width: 30px; padding-left: 4; padding-top: 2.5; border-radius: 5px;">
+                                                    </div>
+                                                    <p class="card-partnerName">Coursera Project Network</p>
+                                                </div>
+                                
+                                        </div>
+                                        <div>
+                                            <a data-click-key="search.search.click.search_card" data-click-value="{&quot;filtersApplied&quot;:{},&quot;hitPosition&quot;:7,&quot;href&quot;:&quot;/projects/web-development-in-flask-build-your-first-website&quot;,&quot;indexName&quot;:&quot;prod_all_launched_products_term_optimization&quot;,&quot;indexPosition&quot;:1,&quot;listIndex&quot;:1,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;search_card&quot;,&quot;page&quot;:&quot;search&quot;},&quot;noResults&quot;:false,&quot;objectID&quot;:&quot;course~TQpn0pzjEe2p_A5TjZf84Q&quot;,&quot;query&quot;:&quot;web development&quot;,&quot;queryID&quot;:&quot;web development&quot;,&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="search_card" data-track-href="/projects/web-development-in-flask-build-your-first-website" href="/projects/web-development-in-flask-build-your-first-website" to="/projects/web-development-in-flask-build-your-first-website" class="cds-119 cds-113 cds-115 cds-CommonCard-titleLink css-si869u cds-142" id="cds-react-aria-221-product-card-title" aria-label="Web Development in Flask: Build Your First Website guided project by Coursera Project Network, by 5.0 stars, provide skills  etc... Intermediate level Less Than 2 Hours" target="_blank" rel="noopener noreferrer">
+                                                
+                                                <h4 class="card-title" style="margin-top:15px ;">Web Development in Flask: Build Your <br>First Website</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-bodyContent">
+                                            <p class="typography-base">
+                                                
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="card-ratings">
+                                            <div class="reviews">
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="card-metadata">
+                                            <p class="Typography-baseContent" style="margin-top:85px">Intermediate.Guided Project.Less than 2 Hours</p>
+                                        </div>
+                                    </div>
+                                </div>    
+                    
+                    </li>
+                    <li class="cards">
+                        
+                            <div class="card">
+                                <div class="cardimg">
+                                    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/0b/ad863716654f8b967853aa56cc7454/react-web-app-sm.png?auto=format%2Ccompress%2C%20enhance&amp;dpr=1&amp;w=265&amp;h=216&amp;q=50&amp;fit=crop" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/0b/ad863716654f8b967853aa56cc7454/react-web-app-sm.png?auto=format%2Ccompress%2C%20enhance&amp;dpr=2&amp;w=265&amp;h=216&amp;q=50&amp;fit=crop 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/0b/ad863716654f8b967853aa56cc7454/react-web-app-sm.png?auto=format%2Ccompress%2C%20enhance&amp;dpr=3&amp;w=265&amp;h=216&amp;q=50&amp;fit=crop 3x"style="width: 308px; height: 190px;border-radius: 9px" alt style="max-width: none; max-height: none;min-width: 100%; min-height: 100%; border-radius: 9px; width: 308px; height: 190px;" >
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-header">
+                                        <div class="card-info">
+                                            
+                                                <div class="card-partners" title="Coursera Project Network">
+                                                    <div class="card-partnerLogo">
+                                                        <img src="http://coursera-university-assets.s3.amazonaws.com/89/a0db8f3ea3417ca90d4f3a4ca1d73e/coursera-projectnetwork-purplesquare.png" style="height: 30px; width: 30px; padding-left: 4; padding-top: 2.5; border-radius: 5px;">
+
+                                                    </div>
+                                                    <p class="card-partnerName">Coursera Project Network</p>
+                                                </div>
+                                
+                                        </div>
+                                        <div>
+                                            <a data-click-key="search.search.click.search_card" data-click-value="{&quot;filtersApplied&quot;:{},&quot;hitPosition&quot;:9,&quot;href&quot;:&quot;/projects/rudi-hinds-web-development-in-reactjs-build-a-web-app&quot;,&quot;indexName&quot;:&quot;prod_all_launched_products_term_optimization&quot;,&quot;indexPosition&quot;:1,&quot;listIndex&quot;:1,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;search_card&quot;,&quot;page&quot;:&quot;search&quot;},&quot;noResults&quot;:false,&quot;objectID&quot;:&quot;course~az7Jp8jrEe2U_gqKaktnAQ&quot;,&quot;query&quot;:&quot;web development&quot;,&quot;queryID&quot;:&quot;web development&quot;,&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="search_card" data-track-href="/projects/rudi-hinds-web-development-in-reactjs-build-a-web-app" href="/projects/rudi-hinds-web-development-in-reactjs-build-a-web-app" to="/projects/rudi-hinds-web-development-in-reactjs-build-a-web-app" class="cds-119 cds-113 cds-115 cds-CommonCard-titleLink css-si869u cds-142" id="cds-react-aria-223-product-card-title" aria-label="Web Development in React.js: Build a Web App guided project by Coursera Project Network, provide skills Application Development, Computer Programming, Javascript etc... Intermediate level Less Than 2 Hours" target="_blank" rel="noopener noreferrer">
+                                                
+                                                <h4 class="card-title">Web Development in React.js: Build a Web App</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-bodyContent">
+                                            <p class="typography-base">
+                                                <span>Skills you'll gain : </span>
+                                                Application Development, Computer Programming, Javascript, React (web framework), Web Development
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="card-ratings">
+                                            <div class="reviews">
+                                            
+                                            </div>
+                                        </div>
+                                        <div class="card-metadata">
+                                            <p class="Typography-baseContent" style="margin-top: 20px;">Intermediate.Guided Project.Less than 2 Hours</p>
+                                        </div>
+                                    </div>
+                                </div>    
+                    </li>
+                    <li class="cards">
+                    
+                            <div class="card">
+                                <div class="cardimg">
+                                    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/5f/ea0c7ae5a24823b57658bbcfdceb10/JavaScript-for-Web-Development.png?auto=format%2Ccompress%2C%20enhance&amp;dpr=1&amp;w=265&amp;h=216&amp;q=50&amp;fit=crop" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/5f/ea0c7ae5a24823b57658bbcfdceb10/JavaScript-for-Web-Development.png?auto=format%2Ccompress%2C%20enhance&amp;dpr=2&amp;w=265&amp;h=216&amp;q=50&amp;fit=crop 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/5f/ea0c7ae5a24823b57658bbcfdceb10/JavaScript-for-Web-Development.png?auto=format%2Ccompress%2C%20enhance&amp;dpr=3&amp;w=265&amp;h=216&amp;q=50&amp;fit=crop 3x" style="width: 308px; height: 190px;border-radius: 9px" alt style="max-width: none; max-height: none;min-width: 100%; min-height: 100%; border-radius: 9px; width: 308px; height: 190px;">
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-header">
+                                        <div class="card-info">
+                                            
+                                                <div class="card-partners" title="Board Infinity">
+                                                    <div class="card-partnerLogo">
+                                                        <img src="http://coursera-university-assets.s3.amazonaws.com/57/ffbfe7f4734ca18bf05a41df254dc9/Frame-11-2-.png" style="height: 30px; width: 30px; padding-left: 3px;">
+                                                    </div>
+                                                    <p class="card-partnerName">Board Infinity</p>
+                                                </div>
+                                
+                                        </div>
+                                        <div>
+                                            <a data-click-key="search.search.click.search_card" data-click-value="{&quot;filtersApplied&quot;:{},&quot;hitPosition&quot;:10,&quot;href&quot;:&quot;/learn/javascript-for-web-development&quot;,&quot;indexName&quot;:&quot;prod_all_launched_products_term_optimization&quot;,&quot;indexPosition&quot;:1,&quot;listIndex&quot;:1,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;search_card&quot;,&quot;page&quot;:&quot;search&quot;},&quot;noResults&quot;:false,&quot;objectID&quot;:&quot;course~F1SbJAdREe6KYw6BBI2y_w&quot;,&quot;query&quot;:&quot;web development&quot;,&quot;queryID&quot;:&quot;web development&quot;,&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="search_card" data-track-href="/learn/javascript-for-web-development" href="/learn/javascript-for-web-development" to="/learn/javascript-for-web-development" class="cds-119 cds-113 cds-115 cds-CommonCard-titleLink css-si869u cds-142" id="cds-react-aria-224-product-card-title" aria-label="JavaScript for Web Development new course by Board Infinity , by 4.7 stars, provide skills Javascript etc... Intermediate level 1 - 4 Weeks" target="_blank" rel="noopener noreferrer">
+                                                
+                                                <h4 class="card-title" style="margin-top: 10px;">JavaScript for Web Development</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-bodyContent">
+                                            <p class="typography-base">
+                                                <span>Skills you'll gain : </span>
+                                                Javascript
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="card-ratings">
+                                            <div class="reviews">
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="card-metadata">
+                                            <p class="Typography-baseContent" style="margin-top: 80px;">Intermediate.Course.1-4 Weeks</p>
+                                        </div>
+                                    </div>
+                                </div>    
+                    </li>
+                    <li class="cards">
+                    
+                            <div class="card">
+                                <div class="cardimg">
+                                    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/e1/95ae8c8c5d4f83b7c3a251617c9101/Logo.jpg?auto=format%2Ccompress%2C%20enhance&amp;dpr=1&amp;w=265&amp;h=216&amp;q=50&amp;fit=crop" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/e1/95ae8c8c5d4f83b7c3a251617c9101/Logo.jpg?auto=format%2Ccompress%2C%20enhance&amp;dpr=2&amp;w=265&amp;h=216&amp;q=50&amp;fit=crop 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/e1/95ae8c8c5d4f83b7c3a251617c9101/Logo.jpg?auto=format%2Ccompress%2C%20enhance&amp;dpr=3&amp;w=265&amp;h=216&amp;q=50&amp;fit=crop 3x" style="width: 308px; height: 190px;border-radius: 9px" alt style="max-width: none; max-height: none;min-width: 100%; min-height: 100%; border-radius: 9px; width: 308px; height: 190px;">
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-header">
+                                        <div class="card-info">
+                                            
+                                                <div class="card-partners" title="Coursera Project Network">
+                                                    <div class="card-partnerLogo">
+                                                        <img src="http://coursera-university-assets.s3.amazonaws.com/89/a0db8f3ea3417ca90d4f3a4ca1d73e/coursera-projectnetwork-purplesquare.png" style="height: 30px; width: 30px; padding-left: 4; padding-top: 2.5; border-radius: 5px;">
+
+                                                    </div>
+                                                    <p class="card-partnerName">Coursera Project Network</p>
+                                                </div>
+                                
+                                        </div>
+                                        <div>
+                                            <a data-click-key="search.search.click.search_card" data-click-value="{&quot;filtersApplied&quot;:{},&quot;hitPosition&quot;:11,&quot;href&quot;:&quot;/projects/intro-css-web-development&quot;,&quot;indexName&quot;:&quot;prod_all_launched_products_term_optimization&quot;,&quot;indexPosition&quot;:1,&quot;listIndex&quot;:1,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;search_card&quot;,&quot;page&quot;:&quot;search&quot;},&quot;noResults&quot;:false,&quot;objectID&quot;:&quot;course~UwfNs8wzEeqN_xLRZVexBQ&quot;,&quot;query&quot;:&quot;web development&quot;,&quot;queryID&quot;:&quot;web development&quot;,&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="search_card" data-track-href="/projects/intro-css-web-development" href="/projects/intro-css-web-development" to="/projects/intro-css-web-development" class="cds-119 cds-113 cds-115 cds-CommonCard-titleLink css-si869u cds-142" id="cds-react-aria-225-product-card-title" aria-label="Introduction to CSS in Web Development guided project by Coursera Project Network, by 4.6 stars, by 101 reviews, provide skills HTML and CSS, Web Development etc... Beginner level Less Than 2 Hours" target="_blank" rel="noopener noreferrer">
+                                                
+                                                <h4 class="card-title">Introduction to CSS in Web Development</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-bodyContent">
+                                            <p class="typography-base">
+                                                <span>Skills you'll gain : </span>
+                                                HTML and CSS, Web Development
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="card-ratings" style="margin-top: 30px;">
+                                            <div class="reviews">
+                                                <svg aria-hidden="true" fill="none" focusable="false" height="16" viewBox="0 0 16 16" width="16"
+                                                class="path"><path d="M13.63 6.32h-4L8.3 2.22a.33.33 0 00-.547-.143.35.35 0 00-.083.123L6.32 6.32h-4a.34.34 0 00-.32.32.36.36 0 00.12.27L5.5 9.49l-1.3 4.08a.33.33 0 00.23.41.358.358 0 00.3-.05L8 11.39l3.28 2.54a.33.33 0 00.46 0 .3.3 0 00.06-.31l-1.31-4.13 3.37-2.58a.32.32 0 00.08-.45.34.34 0 00-.136-.112c-.055-.024-.063-.034-.123-.028h-.051z" fill="#F2D049"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M7.723 1.525a.83.83 0 011.054.546L9.993 5.82h3.668a.635.635 0 01.317.058l.02.01.012.005a.84.84 0 01.336.275l.001.002a.82.82 0 01-.191 1.143l-3.083 2.36 1.2 3.786a.8.8 0 01-.166.81l-.009.01-.01.01a.83.83 0 01-1.131.023L8 12.022l-2.975 2.312-.012.008a.86.86 0 01-1.007-.026.832.832 0 01-.286-.885l.003-.013 1.194-3.744L1.8 7.296l-.014-.013a.86.86 0 01-.287-.645V6.61a.84.84 0 01.791-.79l.015-.001h3.652L7.2 2.029l.006-.016a.85.85 0 01.51-.485l.007-.003zM4.298 14.462h-.002l.134-.482-.132.482zM7.98 2.857L6.682 6.82H2.826l3.257 2.486-1.244 3.907 3.16-2.456 3.14 2.431-1.232-3.882 3.248-2.486H9.267L7.98 2.857zm5.75 3.96z" fill="#7C6919"></path></svg>
+                                                <p class="review">4.6</p>
+                                                <p class="rating">(101 reviews)</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-metadata">
+                                            <p class="Typography-baseContent" style="margin-top: 6px;">Beginner.Guided Project.Less than 2 Hours</p>
+                                        </div>
+                                    </div>
+                                </div>    
+                    </li>
+                    
+
+                </ul>
+            
+        </div>
+    </div>
+
+    
+
+    <footer>
+        <div class="row">
+            <div class="column">
+
+                <ul class="coursera">
+                    <p class="head">Coursera</p>
+                    <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/specializations/ai-for-business-wharton&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/specializations/ai-for-business-wharton" href="https://www.coursera.org/specializations/ai-for-business-wharton" to="https://www.coursera.org/specializations/ai-for-business-wharton" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~179457ae3ecbc3e9d93800a287650ee3">About</a></li>
+                    <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/learn/ai-for-everyone&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/learn/ai-for-everyone" href="https://www.coursera.org/learn/ai-for-everyone" to="https://www.coursera.org/learn/ai-for-everyone" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~161ccffd2137a36fbca7ba13251cf2ca">What We Offer</a></li>
+                    <li ><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/specializations/ai-product-management-duke&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/specializations/ai-product-management-duke" href="https://www.coursera.org/specializations/ai-product-management-duke" to="https://www.coursera.org/specializations/ai-product-management-duke" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~f9cef6b23734a11860bcac7951a4890d">Leadership</a></li>
+                    <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/specializations/deep-learning&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/specializations/deep-learning" href="https://www.coursera.org/specializations/deep-learning" to="https://www.coursera.org/specializations/deep-learning" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~306c08b364704ca2493d034b5855aee7">Careers</a></li>
+                    <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/learn/generative-ai-for-everyone&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/learn/generative-ai-for-everyone" href="https://www.coursera.org/learn/generative-ai-for-everyone" to="https://www.coursera.org/learn/generative-ai-for-everyone" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~0be263e1debb144c5e114df41284501a">Catalog</a></li>
+                    <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/specializations/generative-ai-for-everyone&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/specializations/generative-ai-for-everyone" href="https://www.coursera.org/specializations/generative-ai-for-everyone" to="https://www.coursera.org/specializations/generative-ai-for-everyone" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~9e3a723deaa9dd420b127fe19f93044e">Coursera Plus</a></li>
+                    <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/learn/generative-ai-with-llms&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/learn/generative-ai-with-llms" href="https://www.coursera.org/learn/generative-ai-with-llms" to="https://www.coursera.org/learn/generative-ai-with-llms" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~d139dbb95df213cd4bf412b80846b0a3">Professional Certificates</a></li>
+                    <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai" href="https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai" to="https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~bd28faf977bcb571a4c9c1443342a943">MasterTrack® Certificates</a></li>
+                    <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/specializations/machine-learning-introduction&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/specializations/machine-learning-introduction" href="https://www.coursera.org/specializations/machine-learning-introduction" to="https://www.coursera.org/specializations/machine-learning-introduction" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~fdcfb2fbd7e73a8f298a2e8c76ef569f">Degrees</a></li>
+                    <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/specializations/natural-language-processing&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/specializations/natural-language-processing" href="https://www.coursera.org/specializations/natural-language-processing" to="https://www.coursera.org/specializations/natural-language-processing" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~5e58b5aa1e63162ccc72df1e94055e65">For Enterprise</a></li>
+                    <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/learn/prompt-engineering&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/learn/prompt-engineering" href="https://www.coursera.org/learn/prompt-engineering" to="https://www.coursera.org/learn/prompt-engineering" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~a9d810b825ee53e1387f2ec0112c30d2">For Government</a></li>
+                    <li ><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/learn/machine-learning&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/learn/machine-learning" href="https://www.coursera.org/learn/machine-learning" to="https://www.coursera.org/learn/machine-learning" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~5c9304e11f09c9f4b47e0b8692343ec8">For Campus</a></li>
+                    <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/courses?query=artificial%20intelligence&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/courses?query=artificial%20intelligence" href="https://www.coursera.org/courses?query=artificial%20intelligence" to="https://www.coursera.org/courses?query=artificial%20intelligence" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~fa0bf12e5dc656e71c6324e490149fa6">Become a Partner</a></li>
+                    <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.support/s/article/360041137871-A-community-response-to-COVID-19&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.support/s/article/360041137871-A-community-response-to-COVID-19" href="https://www.coursera.support/s/article/360041137871-A-community-response-to-COVID-19" to="https://www.coursera.support/s/article/360041137871-A-community-response-to-COVID-19" class="rc-SubFooterSection__content-column-link-text">Coronavirus Response</a></li>
+                    <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;/social-impact&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="/social-impact" href="/social-impact" to="/social-impact" class="rc-SubFooterSection__content-column-link-text">Social Impact</a></li>    
+                </ul>
+            </div>
+        
+            <div class="column">
+                    <ul class ="comuunity">
+                        <p class="head">Community</p>
+                        <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/professional-certificates/google-cybersecurity&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/professional-certificates/google-cybersecurity" href="https://www.coursera.org/professional-certificates/google-cybersecurity" to="https://www.coursera.org/professional-certificates/google-cybersecurity" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~2286d72338df5453d0c18c780dec50b9">Learners</a></li>
+                        <l><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/professional-certificates/google-data-analytics&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/professional-certificates/google-data-analytics" href="https://www.coursera.org/professional-certificates/google-data-analytics" to="https://www.coursera.org/professional-certificates/google-data-analytics" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~092a9fd8c047283edc351b6cbd181385">Partners</a></li>
+                        <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce" href="https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce" to="https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~cfcb51f2f374847091bfabc143a0f105">Beta Testers</a></li>
+                        <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/professional-certificates/google-it-automation&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/professional-certificates/google-it-automation" href="https://www.coursera.org/professional-certificates/google-it-automation" to="https://www.coursera.org/professional-certificates/google-it-automation" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~2ae4b8ff3780d3cef82a9e69033b0488">Translators</a></li>
+                        <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/professional-certificates/google-it-support&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/professional-certificates/google-it-support" href="https://www.coursera.org/professional-certificates/google-it-support" to="https://www.coursera.org/professional-certificates/google-it-support" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~2aae8aa70a8eb5db87cf82469b146ead">Blog</a></li>
+                        <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/professional-certificates/google-project-management&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/professional-certificates/google-project-management" href="https://www.coursera.org/professional-certificates/google-project-management" to="https://www.coursera.org/professional-certificates/google-project-management" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~4bddba7141bbb4f82ac4ebe0b329fcc8">Tech Blog</a></li>
+                        <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/learn/seo-fundamentals&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/learn/seo-fundamentals" href="https://www.coursera.org/learn/seo-fundamentals" to="https://www.coursera.org/learn/seo-fundamentals" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~12e7f0952d6920c3baa6b6b103c27178">Teaching Center</a></li>
+                    </ul>
+                </div>
+          
+                <div class="column">
+                    <ul class ="more">
+                        <p class="head">More</p>
+
+        
+                <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/courses?query=cybersecurity&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/courses?query=cybersecurity" href="https://www.coursera.org/courses?query=cybersecurity" to="https://www.coursera.org/courses?query=cybersecurity" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~d4405d07e0919d603df44836df1711f4">Press</a></li>
+                <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/browse/data-science/data-analysis&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/browse/data-science/data-analysis" href="https://www.coursera.org/browse/data-science/data-analysis" to="https://www.coursera.org/browse/data-science/data-analysis" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~59f878d7ddba9ea10e5c10e1f30972c3">Investors</a></li>
+                <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/browse/data-science&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/browse/data-science" href="https://www.coursera.org/browse/data-science" to="https://www.coursera.org/browse/data-science" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~fb13f38ec6a57bda80ecd63b1ed897e2">Terms</a></li>
+                <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/courses?query=digital+marketing&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/courses?query=digital+marketing" href="https://www.coursera.org/courses?query=digital+marketing" to="https://www.coursera.org/courses?query=digital+marketing" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~cae69ffe9977ae8db797625300a5b4a4">Privacy</a></li>
+                <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/courses?query=microsoft+excel&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/courses?query=microsoft+excel" href="https://www.coursera.org/courses?query=microsoft+excel" to="https://www.coursera.org/courses?query=microsoft+excel" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~4256ceaa8693907220dddaf0176e7b07">Help</a></li>
+                <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/courses?query=google&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/courses?query=google" href="https://www.coursera.org/courses?query=google" to="https://www.coursera.org/courses?query=google" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~a33417062b3d58b0d9c1dbcea4eaa191">Accessibility</a></li>
+                <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/courses?query=power+bi&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/courses?query=power+bi" href="https://www.coursera.org/courses?query=power+bi" to="https://www.coursera.org/courses?query=power+bi" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~8d06df7fe2e0b75b80d86a7ac9fcfc29">Contact</a></li>
+                <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/professional-certificates/meta-front-end-developer&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/professional-certificates/meta-front-end-developer" href="https://www.coursera.org/professional-certificates/meta-front-end-developer" to="https://www.coursera.org/professional-certificates/meta-front-end-developer" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~a65b9888f90ee9e9d2b50994294bf989">Articles</a></li>
+                <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/courses?query=project+management&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/courses?query=project+management" href="https://www.coursera.org/courses?query=project+management" to="https://www.coursera.org/courses?query=project+management" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~169f0ce86492dc88a3093084c5daee04">Directory</a></li>
+                <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/courses?query=python&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/courses?query=python" href="https://www.coursera.org/courses?query=python" to="https://www.coursera.org/courses?query=python" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~3df29c65ec618b0b499f490fbdbdf5e1">Affiliates</a></li>
+                <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/courses?query=sql&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/courses?query=sql" href="https://www.coursera.org/courses?query=sql" to="https://www.coursera.org/courses?query=sql" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~d1ae314874750946b21d3b5596e75eae">Modern Slavery Statement</a></li>
+                <li><a data-click-key="search.search.click.seo_directory_link" data-click-value="{&quot;href&quot;:&quot;https://www.coursera.org/courses&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;seo_directory_link&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="seo_directory_link" data-track-href="https://www.coursera.org/courses" href="https://www.coursera.org/courses" to="https://www.coursera.org/courses" class="rc-SubFooterSection__content-column-link-text" __typename="Seo_ComponentLink" id="ComponentLink~0b9060825ea32340aa39585a50516bb6">Do Not Sell/Share</a></li>
+            </ul>
+        </div>
+    
+    
+        <div class="column">
+            <ul class ="badge">
+                <a data-click-key="search.search.click.mobile_app_badges_ios" data-click-value="{&quot;href&quot;:&quot;https://itunes.apple.com/app/apple-store/id736535961?pt=2334150&amp;ct=Coursera%20Web%20Promo%20Banner&amp;mt=8&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;mobile_app_badges_ios&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="mobile_app_badges_ios" data-track-href="https://itunes.apple.com/app/apple-store/id736535961?pt=2334150&amp;ct=Coursera%20Web%20Promo%20Banner&amp;mt=8" href="https://itunes.apple.com/app/apple-store/id736535961?pt=2334150&amp;ct=Coursera%20Web%20Promo%20Banner&amp;mt=8" to="https://itunes.apple.com/app/apple-store/id736535961?pt=2334150&amp;ct=Coursera%20Web%20Promo%20Banner&amp;mt=8" class="_wwcfwz mobile-badge _wwcfwz subfooter-mobile-badge" data-platform="ios"><div class="_yqjywj"><div class="lazyload-wrapper"><img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/download_on_the_app_store_badge_en.svg?auto=format%2Ccompress&amp;dpr=1&amp;w=152&amp;h=45&amp;q=40" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/download_on_the_app_store_badge_en.svg?auto=format%2Ccompress&amp;dpr=2&amp;w=152&amp;h=45&amp;q=40 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/download_on_the_app_store_badge_en.svg?auto=format%2Ccompress&amp;dpr=3&amp;w=152&amp;h=45&amp;q=40 3x" width="152" height="45" alt="Download on the App Store" style="max-width: 152px; max-height: 45px;"></div></div></a>
+                <br>
+                <a data-click-key="search.search.click.mobile_app_badges_android" data-click-value="{&quot;href&quot;:&quot;http://play.google.com/store/apps/details?id=org.coursera.android&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;app&quot;:&quot;search&quot;,&quot;component&quot;:&quot;mobile_app_badges_android&quot;,&quot;page&quot;:&quot;search&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}" data-track="true" data-track-app="search" data-track-page="search" data-track-action="click" data-track-component="mobile_app_badges_android" data-track-href="http://play.google.com/store/apps/details?id=org.coursera.android" href="http://play.google.com/store/apps/details?id=org.coursera.android" to="http://play.google.com/store/apps/details?id=org.coursera.android" class="mobile-badge _wwcfwz subfooter-mobile-badge" data-platform="android"><div class="_yqjywj"><div class="lazyload-wrapper"><img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/en_generic_rgb_wo_45.png?auto=format%2Ccompress&amp;dpr=1&amp;w=152&amp;h=45&amp;q=40" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/en_generic_rgb_wo_45.png?auto=format%2Ccompress&amp;dpr=2&amp;w=152&amp;h=45&amp;q=40 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/en_generic_rgb_wo_45.png?auto=format%2Ccompress&amp;dpr=3&amp;w=152&amp;h=45&amp;q=40 3x" width="152" height="45" alt="Get it on Google Play" style="max-width: 152px; max-height: 45px;"></div></div></a>
+                <br>
+                <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/2018-B-Corp-Logo-Black-S.png?auto=format%2Ccompress&amp;dpr=1&amp;w=151&amp;h=120&amp;q=40" srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/2018-B-Corp-Logo-Black-S.png?auto=format%2Ccompress&amp;dpr=2&amp;w=151&amp;h=120&amp;q=40 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/2018-B-Corp-Logo-Black-S.png?auto=format%2Ccompress&amp;dpr=3&amp;w=151&amp;h=120&amp;q=40 3x" width="82" height="120" alt="Logo of Certified B Corporation" style="max-width: 151px; max-height: 120px;">    
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
