@@ -1,0 +1,299 @@
+body {
+    display: grid;
+    place-items: center;
+    height: auto;
+    /* width: auto; */
+    /* overflow-x: hidden; */
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+
+}
+
+
+.join_us {
+    font-weight: bold;
+    color: #040052;
+    text-align: center;
+    margin: 1.5rem;
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+}
+ .title_join_us {
+    position: relative;
+    background: -webkit-linear-gradient(0deg, #fa2424, #fb8721);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.splide {
+    visibility: visible !important;
+    width: 1400px !important;
+ 
+}
+.splide__slide {
+    width: 28% !important;
+    
+}
+.content-box {
+     max-width: 90%;
+     height: 96%;
+     border-radius: 5%;
+     background: #fff;
+     border-radius: 30px;
+     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
+     transition: all 0.4s ease;
+     
+   }
+   .content-box:hover{
+     transform: translateY(-15px);
+   }
+     
+   
+
+.content{
+    padding: 1rem 0 1.5rem 0.5rem;
+   
+}
+.btn-1 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 1em 1.5em;
+    background: -webkit-linear-gradient(45deg, #ff0000, #ff8000);
+    -webkit-text-fill-color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    transition: 3s;
+    cursor: pointer;
+    position: absolute; bottom: 2.5rem;
+    margin-top: auto;
+    width: fit-content;
+    margin-left: 6.5rem;
+ 
+    
+}
+.btn-2 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 0.7em 1.5em;
+    background:  #ffffff;
+    -webkit-text-fill-color: #ff0000;
+    border: none;
+    border-radius: 20px;
+    transition: 3s;
+    cursor: pointer;
+    position: absolute; bottom: 2rem;
+    margin-top: auto;
+    width: fit-content;
+    margin-left: 6.5rem;
+    
+    
+}
+.name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    padding-left: 2rem;
+    color:  #5e5e5e;
+}
+.name-span, .course-content {
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    list-style: none;
+    margin-top: 0;
+    color:  #5e5e5e;
+}
+.premium_name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    padding-left: 2rem;
+    color: white;
+}
+.premium_name-span, .premium_content {
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 2.2rem;
+    list-style: none;
+    margin-top: 0;
+    color:  white;
+}
+.slider-wrapper {
+    padding: 50px 15px;
+    height: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    max-width: 1400px !important;
+}
+.premium {
+    background: -webkit-linear-gradient(45deg, #ff8000, #ff0000);
+    height: 100%;
+    border-radius: 30px;
+}
+
+.slider_wrapper .splide__pagination__page.is-active {
+    background: #ff0000 !important;
+    opacity: 1;
+    height: 0.9rem !important;
+    width: 0.9rem !important;
+   
+}
+ .splide__pagination__page {
+    background: #ccc !important;
+    border: #ff0000 solid 2px !important;
+    height: 0.9rem !important;
+    width: 0.9rem !important;
+}
+.splide__pagination{
+    bottom:  -2rem !important;
+   
+}
+.splide__arrow{
+    opacity: 0.6 !important;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: white !important ;
+    border: #ff0000 solid 2px !important;
+}
+
+
+.emi-container {
+    display: grid;
+    grid-template-columns: 48% 48% ;
+    gap: 10rem;
+    padding: 20px;
+    margin-top: 3rem;
+    width:fit-content;
+  }
+.emi {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    margin: 5px;
+    color:  #4d4d4d;
+  }
+  .key_features {
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    list-style: none;
+    margin: 0;
+    margin-left: 5px;
+    color:  #5e5e5ee8  ;
+  }
+  .emi_features {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 2.3rem;
+    list-style: none;
+    margin: 0;
+    color:  #5e5e5e;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  }
+  .emi_box{
+    padding: 15px;
+    border: #ff0000 solid 1px;
+    border-radius: 30px;
+     background: #fff;
+     border-radius: 30px;
+     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
+     transition: all 0.4s ease;
+     width:100%;
+  }
+  .amazing_career {
+    background-color: #fbf5ef;
+    width: 100%;
+  }
+  .amazing_heading{
+    text-align: center;
+  }
+ .awaits {
+     color: #fbf5ef;
+    font-size: 60px;
+    text-shadow: -1px 1.5px 0 #ff0000 ,
+        1.5px 1.5px 0 #ff0000 ,
+        1.5px -1px 0 #ff0000 ,
+        -1px -1px 0 #ff0000 ;
+        text-align: center;
+        width: fit-content;
+        padding: 0.3rem 7rem;
+        border: #ff0000 solid 2px;
+        border-radius: 20px;
+        margin-left: 35rem;
+ }
+ .grab_offer {
+    color :#5e5e5ee8;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+ }
+ .buy_course_container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 2rem;
+    padding: 20px;
+    width:fit-content;
+    margin-left: 15rem;
+  }
+  .buy_course_box{
+    padding: 1rem 3rem;
+    border:#ff0000 solid 2px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
+  }
+  .off {
+    text-align: center;
+    color: #5e5e5ee8;
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  .percentage {
+    color:#5e5e5ee8 ;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: -1px -1px #5e5e5ee8, 0.05em 0.05em white,  0.12em 0.12em #767373e8 ;
+  }
+  
+  .buy_3course_box{
+    padding: 1rem 3rem;
+    border:#ff0000 solid 2px;
+    background: -webkit-linear-gradient(45deg, #ff8000, #ff0000);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
+  }
+  .buy_3course{
+    color: #fff;
+  }
+  .off_3 {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  .percentage_3 {
+    color:white ;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: -1px -1px #5e5e5ee8, 0.1em 0.1em #ff0000,  0.13em 0.13em white ;
+  }
+  .btn-3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 1.3em 7em;
+    background: -webkit-linear-gradient(45deg, #ff0000, #ff8000);
+    -webkit-text-fill-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    transition: 3s;
+    cursor: pointer;
+    width: fit-content;
+    margin: 8rem 30rem 5rem 35rem;
+    
+ 
+    
+}
+  
+  
