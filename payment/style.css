@@ -1,0 +1,298 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+.block {
+    background-image: -webkit-linear-gradient(0deg, rgb(250, 36, 36), rgb(251, 135, 33));
+    width: 50%;
+    height: 600px; 
+    border-radius: 100%  100%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    
+
+}
+
+.content {
+    height: 70%;
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    /* align-items: center;
+     justify-content: center;   */
+    border:  #fa2424 8px; 
+    border-style: solid;
+    
+    border-width: 2px;
+    /* color-orange: linear-gradient(45deg, #fa2424, #ed7e1e) */
+    /* margin-left: 100px; */
+    border-radius: 35px;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img {
+    background-image: url('https://image.cnbcfm.com/api/v1/image/106563673-1591201514028gettyimages-1195222165.jpeg?v=1591201550&w=1920&h=1080');
+    box-sizing: border-box;
+    float: left;
+    height: 70%;
+    width: 40%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 15px;
+    float: left;
+    align-items: center;
+    /* padding: 5p; */
+    margin-top: 8%;
+    
+}
+.responsive {
+    width: 50%;
+    height: auto;
+  }
+.text {
+    height: 60px;
+    width: 550px;
+    background:-webkit-linear-gradient(0deg, #fa2424, #fb8721);
+    background-image :-webkit-linear-gradient(0deg, rgb(250, 36, 36), rgb(251, 135, 33));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    /* color: linear-gradient(45deg, #fa2424, #ed7e1e); */
+    font-family:  'Vollkorn', serif;
+    font-size:20px;
+    margin-left: 500px;
+    border-bottom: 5px solid red;
+    border-bottom-width: 1px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+  .box {
+
+    float: left;
+    width: 60%;
+    height: 100%;
+    /* margin-top :10px */
+    /* background-image: url('backgroundimg.png') ;
+    background-size: 650px;  
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light; */
+  }
+  /* .bg-img { */
+    /* The image used */
+    /* background-image: url("backgroundimg.png");
+  
+    min-height: 380px;
+    opacity: 0.9; */
+  
+    /* Center and scale the image nicely */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding-left: 50px;
+    padding-top: 10px;
+    
+    
+  } */
+ label {
+    color: black;
+    font-weight: bolder;
+    
+ }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    height: 70%;
+    padding: 2%;
+    border: 2px solid #fa2424;
+    border-radius: 20px;
+    resize: vertical;
+  }
+  
+  label {
+    /* padding: 12px 12px 12px 0;0&Y */
+    display: inline-block;
+    font-size: 120%;
+  }
+  
+  /* input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  } */
+  
+  .container {
+    border-radius: 35px;
+    /* background-color: #ed7e1e; */
+    
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    /* font-size: 15px; */
+    margin: 8px;
+
+    
+    } 
+  .col-25 {
+    float: left;
+    width: 25%;
+    height: 100%;
+    /* margin-top: 4px; */
+    
+  }
+  
+  .col-75 {
+    float: left;
+    width: 72%;
+    height: 100%;
+    /* margin-top: 4px; */
+  } 
+  .row {
+    height: 17%;
+    width: 100%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+     body {
+      width: 100%;
+      height: 100%;
+      margin-top: 0;
+    }}
+    @media screen and (max-width: 600px) {
+      .box, .content {
+        width : 60%
+      }
+    }
+    @media screen and (max-width: 600px) {
+       .content {
+        width : 90%
+      }
+    }
+    @media screen and (max-width: 600px) {
+     .img {
+        width: 40%;
+        margin-top: 40%;
+    }}
+    @media screen and (max-width: 600px) {
+    .text {
+      width: 100%;
+      margin-left: 0;
+    }}
+    @media screen and (max-width: 600px) {
+    .block ,  .container, h1 {
+        width: 100%;
+        margin-left: 0%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+  .col-25,  .btn {
+    width: 20%;
+  }
+  }
+  /* @media screen and (max-width: 600px) {
+  .col-75 {
+    width: %;
+  }} */
+
+/* .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  } */
+  .btn {
+    /* margin-left: 50px; */
+    width: 100%;
+    height: 15%;
+    
+    
+  }
+  .button {
+    padding: 15px 25px;
+    font-size: 150%;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    /* color: #fff; */
+    /* margin-top: 15px; */
+    background: -webkit-linear-gradient(45deg, #fa2424, #ed7e1e);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    /* margin-left: 20px;
+    margin-right: 207px; */
+    font-family:  'Vollkorn', serif;
+    transition: 3s;
+    color: white;
+    height: 100%;
+    
+  }
+  
+  .button:hover {
+    background: -webkit-linear-gradient(45deg, #fa2424, #ed7e1e);   
+    transition: 3s; 
+}
+  
+  .button:active {
+    background:-webkit-linear-gradient(45deg, #fa2424, #ed7e1e);
+    /* box-shadow: 0 5px black;
+    transform: translateY(4px); */
+    transition: 3s;
+  }
+  .qrcode {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQQV_F2oMM0k6WZlAad3frniqgh2iVPbJbThQ1GKETT9FUkBnrriCQVz_qgAy0lodln7g&usqp=CAU');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    /* float: left;  */
+    width: 30% ;
+    height: 50%;
+    
+}
+  form {
+    height: 100%;
+    width: 100%;
+  }
+  
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 50px;
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+    margin-left: 100px;
+  }
+}
