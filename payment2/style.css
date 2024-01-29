@@ -1,0 +1,233 @@
+body {
+    width: 100%;
+    height: 90%;
+}
+.block {
+    
+    width: 90%;
+    
+    height: 100%; 
+    
+    
+
+}
+.back-img {
+  background-image: -webkit-linear-gradient(0deg, rgb(250, 36, 36), rgb(251, 135, 33));
+  background-size: 5;
+  height: 90%;
+  width: 50%;
+  border-radius: 50%  50%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    /* padding-top: 5%; */
+    /* margin-left: 10%; */
+}
+
+.content {
+    height: 80%;
+    width: 70%;
+   /* padding-left: 100px; */
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    border:  #fa2424 8px; 
+    border-style: solid;
+    
+    border-width: 2px;
+    /* color-orange: linear-gradient(45deg, #fa2424, #ed7e1e) */
+    margin-left:40%;
+    border-radius: 35px;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.text {
+    height: 14%;
+    width: 50%;
+   
+    font-family:  'Vollkorn', serif;
+    font-size:100%;
+    margin-left: 50%;
+    border-bottom: 5px solid red;
+    border-bottom-width: 1px;
+    margin-bottom: 10px;
+    color: black;
+    
+    
+}
+
+
+/* * {
+    box-sizing: border-box;
+  } */
+  .box {
+
+    float: left;
+    width: 100%;
+    height: 100%;
+   
+  }
+ 
+ label {
+    color: black;
+    font-weight: bolder;
+ }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #fa2424;
+    border-radius: 20px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  
+  .container {
+    border-radius: 35px;
+    /* background-color: #ed7e1e; */
+    
+    padding:4%;
+    width: 93%;
+    height: 90%;
+    font-size: 18px;
+    /* margin: 8px; */
+
+    
+    } 
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  } 
+  .row {
+    height: 15%;
+    width: 100%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  .btn {
+    /* margin-left: 50px; */
+    width: 90%;
+    height: 200%;
+    
+    
+  }
+  .button {
+  
+    font-size: 180%;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background: -webkit-linear-gradient(45deg, #fa2424, #ed7e1e);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-left: 30%;
+    font-family:  'Vollkorn', serif;
+    transition: 3s;
+    color: white;
+    width: 60%;
+    height: 50%;
+    
+  }
+  
+  .button:hover {
+    background: -webkit-linear-gradient(45deg, #fa2424, #ed7e1e);   
+    transition: 3s; 
+}
+  
+  .button:active {
+    background:-webkit-linear-gradient(45deg, #fa2424, #ed7e1e);
+    
+    transition: 3s;
+  }
+  .qrcode {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQQV_F2oMM0k6WZlAad3frniqgh2iVPbJbThQ1GKETT9FUkBnrriCQVz_qgAy0lodln7g&usqp=CAU');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    float: left; 
+    width: 20% ;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 15%;
+    border-radius: 15%;
+    
+}
+  form {
+    height: fit-content;
+    width: 100%;
+  }
+
+   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+   @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+      height: 50%;
+    }
+    .box {
+        width: 100%;
+        height: 100%;
+    }
+      .text   {
+        width: 70%;
+        height: 5%;
+    }
+    .block {
+      width: 90%;
+      height: 100%;
+    }
+    .back-img {
+      width: 80%;
+      height: 90%;
+    }
+    .content {
+      width: 70%;
+      height: 80%;
+    }
+    .container {
+      width: 93%;
+      height: 90%;
+    }
+    .row {
+      width: 100%;
+      height: 15%;
+    }
+    .form {
+      width: 93%;
+      height: fit-content;
+    }
+    .btn {
+      width: 90%;
+      height: 50%;
+    }
+    .button {
+      width: 60%;
+      height: 150%;
+    }
+    
+  }
